@@ -1,0 +1,117 @@
+.bg-darkblue{
+    background-color: #3C5478;
+}
+.home-navbar{
+    background-color: #3C5478;
+    height:100px;
+
+}
+
+.bold:hover{
+    font-weight:700
+    !important
+}
+
+/* .garamond {
+    font-family: Garamond, serif;
+} */
+
+.bg-lightblue{
+    background-color: #8eaddf;
+}
+
+.bg-lighterblue{
+    background-color: hsl(216, 59%, 86%);
+}
+
+.home-search{
+    height: 200px;
+    width:650px;
+    border-radius:0.5rem;
+    border: solid #445e87 0.05rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+}
+
+/* text{
+    font-family: ;
+} */
+
+.navbar-brand2{
+    display: inline-block;
+    padding-top: 0.325rem;
+    padding-bottom: 0.325rem;
+    margin-right: 1.5rem;
+    font-size: 1.75rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.navbar-brand2:hover{
+    text-decoration: none;
+}
+
+.btn-lg1{
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.btn-lg2{
+    padding: 0.5rem 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+
+
+
+.btn-outline-dark{
+    color: #445e87;
+    background-color: transparent;
+    background-image: none;
+    border-color: #445e87;
+    
+  }
+  
+  .btn-outline-dark:hover {
+    color: #fff;
+    background-color: #445e87;
+    border-color: #445e87;
+  }
+  
+  .btn-outline-dark:focus, .btn-outline-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+  
+  .btn-outline-dark.disabled, .btn-outline-dark:disabled {
+    color: #445e87;
+    background-color: transparent;
+  }
+  
+  .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #445e87;
+    border-color: #445e87;
+  }
+  
+  .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-dark.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+
+.search-input{
+    width:400px; height:50px;font-size:1.15rem
+    !important
+}
+.search-btn{
+    height: 50px;width:100px;font-size:1.15rem
+    !important
+}
