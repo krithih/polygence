@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, HttpResponseRedirect
 from django.contrib.auth.forms import UserCreationForm,AuthenticationForm
+from django.contrib.auth.models import User
 from .forms import Signup
 from django.contrib.auth import login, authenticate, logout
 
@@ -11,13 +12,15 @@ def index(request):
 
 def signup(request):
     if request.method=="POST":
-        fm = Signup(request.POST)
+        fm=Signup(request.POST)  
         if fm.is_valid():
             fm.save()
-        # return HttpResponse("signed up successfully!!")
-    elif request.method=="GET":
+            fm = Signup()
+            return render(request,'home/signup.html',{'form':fm})
+        return render(request,'home/signup.html',{'form':fm})  
+    else:    
         fm = Signup()
-    return render(request,'home/signup.html',{'form':fm})
+        return render(request,'home/signup.html',{'form':fm})
 
 def userlogin(request):
     if request.method=="POST":
